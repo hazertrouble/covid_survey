@@ -7,6 +7,7 @@ form.addEventListener('submit', e => {
     .then(response => {
       console.log('Success!', response);
       swal("Good job!", "Thanks for answering the survey", "success");
+      document.getElementsByName('submit-form')[0].reset();
     })
     .catch(error => {
       console.error('Error!', error.message);

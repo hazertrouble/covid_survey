@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyW7znJY5fMHnvpRO5gY89oy9zgsmo2UiGgfJNSPv1InRzsbdTr/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyhLf3LQ9qz9HJ2aeZ93CcoO-XbZwfct5cEQCy8gR86bbI9OSt77q5B9CfpSuUfdYC8/exec'
 const form = document.forms['submit-form']
 
 form.addEventListener('submit', e => {

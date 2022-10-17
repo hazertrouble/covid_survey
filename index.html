@@ -13,15 +13,48 @@
   <title>Covid Survey</title>
 </head>
 <body>
-  <center>
-    <h2>Covid Survey</h2>
-    <form class="container" name="submit-form">
-      <input name="first" type="text" placeholder="First name" required>
-      <input name="last" type="text" placeholder="Last name" required>
-      <input name="email" type="email" placeholder="Email" required>
+  <center><h1>COVID-19 Daily Questionnaire</h1></center>
+  <hr/>
+    <form class="container col" name="submit-form">
+      
+      <div class="conditions-text">
+        <center><label>I affirm:</label></center>
+        <ul>
+          <li>I have been educated in personal hygiene best practices.</li>
+          <li>I have <b>not</b> been in contact with any individual(s) exhibiting symptoms of COVID-19.</li>
+          <li>I have <b>not</b> been diagnosed or tested confirming I have COVID-19 within the 10 days.</li>
+          <li>I have <b>not</b> traveled outside of California to anywhere with a confirmed outbreak of COVID-19.</li>
+          <li>I am Healthy and free of any of the following symptoms:
+            <ul>
+              <li>Cough</li>
+              <li>Shortness of Breath or Difficulty Breathing</li>
+              <li>Nausea or Vomiting</li>
+              <li>Fever or Chills</li>
+              <li>Fatigue</li>
+              <li>Muscle or Body Aches</li>
+              <li>Congestion or Runny Nose</li>
+              <li>Sore Throat</li>
+              <li>New Loss of Taste or Smell</li>
+              <li>Diarrhea</li>
+              <li>Headache</li>
+            </ul>
+          </li>
+        </ul>
+        <center><label>If any crew member begin to exhibit symptoms on-site, they will be sent home & BCCI will be notified inmediately.</label></center>
+      </div>
+      <br/>
+      <label>Name of the Crew Member</label>
+      <input class="input-large" name="Name of the Crew Member(s)" type="text" placeholder="Name" required>
+      <label>Company</label>
+      <input class="input-large" name="Company" type="text" placeholder="Company" required>
+      <label>Email (optional)</label>
+      <input class="input-large" name="Email" type="email" placeholder="Email">
+      <label>Phone (optional)</label>
+      <input class="input-large" name="Phone" type="number" placeholder="Phone">
+      <br/>
+      <label><input name="checkbox" type="checkbox"  required>I have read the above text, I understand it and I'm fully agree.</label>
       <button class="button-blue move-up" type="submit">Send</button>
     </form>
-  </center>
 </body>
 <script src="survey.js"></script>
 </html>
